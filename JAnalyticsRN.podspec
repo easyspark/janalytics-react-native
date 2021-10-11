@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.weak_frameworks = 'UserNotifications'
   s.libraries       = 'z','resolv'
   s.vendored_libraries = "ios/RCTJAnalyticsModule/*.a"
-
+  s.dependency="JAnalytics"
   s.dependency 'React'
 end
